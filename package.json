@@ -1,0 +1,34 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Design Patterns implementaion using ts",
+  "main": "index.ts",
+  "scripts": {
+    "observer": "ts-node src/Behavioral/Observer",
+    "strategy": "ts-node src/Behavioral/Strategy",
+    "abstract-factory": "ts-node src/Creational/AbstractFactory",
+    "factory-method": "ts-node src/Creational/FactoryMethod",
+    "singleton": "ts-node src/Creational/Singleton",
+    "decorator": "ts-node src/Structural/Decorator",
+    "adapter": "ts-node src/Structural/Adapter",
+    "facade": "ts-node src/Structural/Facade",
+    "proxy": "ts-node src/Structural/Proxy",
+    "bridge": "ts-node src/Structural/Bridge",
+    "command": "ts-node src/Behavioral/Command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedElGarhy1/TS-DesignPatterns.git"
+  },
+  "keywords": [
+    "typescript",
+    "designPatterns",
+    "GoF"
+  ],
+  "author": "AhmedElGarhy1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedElGarhy1/TS-DesignPatterns/issues"
+  },
+  "homepage": "https://github.com/AhmedElGarhy1/TS-DesignPatterns#readme"
+}
